@@ -1,7 +1,7 @@
 # labpy03
 #Latihan 1
 ![alt image](https://github.com/rifkiadetia/labpy03/blob/be12177401dd2059dbaba5cbdbfd500dd8a7f5d1/foto/Ss1.png)
-- Bilangan Acak 📝 Deskripsi Program Program ini menampilkan n bilangan acak yang nilainya lebih kecil dari 0.5. Nilai n ditentukan oleh user saat runtime. 🔄 Alur Algoritma
+-Bilangan Acak. Deskripsi Program Program ini menampilkan n bilangan acak yang nilainya lebih kecil dari 0.5. Nilai n ditentukan oleh user saat runtime. 🔄 Alur Algoritma
 
 Import Library
 
@@ -28,19 +28,20 @@ Output Akhir
 
 Tampilkan pesan "Selesai"
 
-💻 Kode Program pythonfrom random import random
+Kode Program pythonfrom random import random
 # Meminta input n dari user
 n = int(input("masukan nilai N:"))
 # Menampilkan bilangan acak yang lebih kecil dari 0.5
 count = 0
 
-while count < n: angka = random() if angka < 0.5: count += 1 Contoh Output: Masukkan nilai N: 5 data ke: 1 => 0.172949220435756 data ke: 2 => 0.08717360127477924 data ke: 3 => 0.05051607654502832 data ke: 4 => 0.27535124215716744 data ke: 5 => 0.39262323000723776 Selesai.🎯 Penjelasan Konsep
-
+while count < n: angka = random() if angka < 0.5: count += 1 Contoh Output: Masukkan nilai N: 5 data ke: 1 => 0.172949220435756 data ke: 2 => 0.08717360127477924 data ke: 3 => 0.05051607654502832 data ke: 4 => 0.27535124215716744 data ke: 5 => 0.39262323000723776 Selesai.
+Penjelasan Konsep
 Menggunakan perulangan while (uncounted loop) karena tidak tahu pasti berapa kali harus generate bilangan Menggunakan conditional if untuk memfilter hanya bilangan < 0.5 Kombinasi while dan if membuat program efisien.
 
 #Latihan 2 
 ![alt image](https://github.com/rifkiadetia/labpy03/blob/15a07ae56ce68b01d7eba501f830c9980aa03378/foto/Ss2.png)
-- Perhitungan Laba Usaha 📝 Deskripsi Program Program menghitung total keuntungan seorang pengusaha selama 8 bulan dengan modal awal 100 juta rupiah, dengan persentase laba yang berbeda-beda setiap bulannya. 🔄 Alur Algoritma
+-Perhitungan Laba Usaha. Deskripsi Program Program menghitung total keuntungan seorang pengusaha selama 8 bulan dengan modal awal 100 juta rupiah, dengan persentase laba yang berbeda-beda setiap bulannya. 
+Alur Algoritma
 
 Inisialisasi Variabel
 
@@ -64,7 +65,7 @@ Output Akhir
 
 Tampilkan total laba selama 8 bulan
 
-💻 Kode Program python# Modal awal modal_awal = 100_000_000
+Kode Program python# Modal awal modal_awal = 100_000_000
 # Inisialisasi variabel
 total_laba = 0
 # perhitungan laba perbulan
@@ -77,13 +78,16 @@ total_laba += laba_bulan_ini
 #Tampilkan informasi per bulan
 print(f"laba bulan ke- {bulan} sebesar: {int(laba_bulan_ini)}")
 
-print(f"Total laba adalah: {int(total_laba)}") Output: laba bulan ke- 1 sebesar: 0 laba bulan ke- 2 sebesar: 0 laba bulan ke- 3 sebesar: 1000000 laba bulan ke- 4 sebesar: 1000000 laba bulan ke- 5 sebesar: 5000000 laba bulan ke- 6 sebesar: 5000000 laba bulan ke- 7 sebesar: 5000000 laba bulan ke- 8 sebesar: 2000000 Total laba adalah: 19000000 🎯 Penjelasan Konsep
-
+print(f"Total laba adalah: {int(total_laba)}") Output: laba bulan ke- 1 sebesar: 0 laba bulan ke- 2 sebesar: 0 laba bulan ke- 3 sebesar: 1000000 laba bulan ke- 4 sebesar: 1000000 laba bulan ke- 5 sebesar: 5000000 laba bulan ke- 6 sebesar: 5000000 laba bulan ke- 7 sebesar: 5000000 laba bulan ke- 8 sebesar: 2000000 Total laba adalah: 19000000
+Penjelasan Konsep
 Menggunakan perulangan for (counted loop) karena jumlah perulangan sudah pasti (8 bulan) Menggunakan conditional if-elif-else untuk menentukan persentase laba setiap bulan Akumulasi laba menggunakan operator +=
 
-📈 Rincian Perhitungan BulanPersentase LabaLaba (Rp)Keterangan10%0Belum dapat laba20%0Belum dapat laba31%1.000.000Mulai dapat laba41%1.000.000Laba tetap55%5.000.000Naik 4%65%5.000.000Laba tetap75%5.000.000Laba tetap82%2.000.000Turun 3%Total-19.000.000-
+Rincian Perhitungan BulanPersentase LabaLaba (Rp)Keterangan10%0Belum dapat laba20%0Belum dapat laba31%1.000.000Mulai dapat laba41%1.000.000Laba tetap55%5.000.000Naik 4%65%5.000.000Laba tetap75%5.000.000Laba tetap82%2.000.000Turun 3%Total-19.000.000-
 
-#Latihan 3 - Simulasi ATM 📝 Deskripsi Program Program simulasi mesin ATM sederhana yang memungkinkan pengguna untuk menarik uang dari saldo awal Rp 1.000.000 hingga saldo habis atau memilih untuk keluar. 🔄 Alur Algoritma
+#Latihan 3 
+![alt image](https://github.com/rifkiadetia/labpy03/blob/efe64545b6b7af906f20dca96ab9744cc78660f1/foto/Ss3.png)
+-Simulasi ATM. Deskripsi Program Program simulasi mesin ATM sederhana yang memungkinkan pengguna untuk menarik uang dari saldo awal Rp 1.000.000 hingga saldo habis atau memilih untuk keluar.
+Alur Algoritma
 
 Inisialisasi Variabel
 
@@ -121,7 +125,7 @@ Pengecekan Saldo Habis
 
 Jika saldo = 0, tampilkan pesan saldo habis dan program berhenti
 
-💻 Kode Program python# Saldo awal saldo = 1000000
+Kode Program python# Saldo awal saldo = 1000000
 
 while saldo > 0: print(f"Saldo saat ini: Rp {saldo}") print("1. Tarik Uang") print("2. Keluar") pilihan = int(input("Pilih menu (1/2): "))
 # jika saldo habis
