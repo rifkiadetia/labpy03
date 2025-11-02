@@ -1,8 +1,8 @@
 # labpy03
 #Latihan 1
 ![alt image](https://github.com/rifkiadetia/labpy03/blob/be12177401dd2059dbaba5cbdbfd500dd8a7f5d1/foto/Ss1.png)
--Bilangan Acak. Deskripsi Program Program ini menampilkan n bilangan acak yang nilainya lebih kecil dari 0.5. Nilai n ditentukan oleh user saat runtime. 🔄 Alur Algoritma
-
+-Bilangan Acak. Deskripsi Program Program ini menampilkan n bilangan acak yang nilainya lebih kecil dari 0.5. Nilai n ditentukan oleh user saat runtime. 
+🔄 Alur Algoritma
 Import Library
 
 Import fungsi random dari module random
@@ -41,8 +41,7 @@ Menggunakan perulangan while (uncounted loop) karena tidak tahu pasti berapa kal
 #Latihan 2 
 ![alt image](https://github.com/rifkiadetia/labpy03/blob/15a07ae56ce68b01d7eba501f830c9980aa03378/foto/Ss2.png)
 -Perhitungan Laba Usaha. Deskripsi Program Program menghitung total keuntungan seorang pengusaha selama 8 bulan dengan modal awal 100 juta rupiah, dengan persentase laba yang berbeda-beda setiap bulannya. 
-Alur Algoritma
-
+🔄 Alur Algoritma
 Inisialisasi Variabel
 
 modal_awal = 100.000.000 (100 juta rupiah) total_laba = 0
@@ -87,8 +86,7 @@ Rincian Perhitungan BulanPersentase LabaLaba (Rp)Keterangan10%0Belum dapat laba2
 #Latihan 3 
 ![alt image](https://github.com/rifkiadetia/labpy03/blob/efe64545b6b7af906f20dca96ab9744cc78660f1/foto/Ss3.png)
 -Simulasi ATM. Deskripsi Program Program simulasi mesin ATM sederhana yang memungkinkan pengguna untuk menarik uang dari saldo awal Rp 1.000.000 hingga saldo habis atau memilih untuk keluar.
-Alur Algoritma
-
+🔄 Alur Algoritma
 Inisialisasi Variabel
 
 saldo = 1.000.000 (saldo awal)
