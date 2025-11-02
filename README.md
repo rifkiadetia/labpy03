@@ -1,5 +1,7 @@
 # labpy03
-#Latihan 1 - Bilangan Acak 📝 Deskripsi Program Program ini menampilkan n bilangan acak yang nilainya lebih kecil dari 0.5. Nilai n ditentukan oleh user saat runtime. 🔄 Alur Algoritma
+#Latihan 1
+![alt image](https://github.com/rifkiadetia/labpy03/blob/be12177401dd2059dbaba5cbdbfd500dd8a7f5d1/foto/Ss1.png)
+- Bilangan Acak 📝 Deskripsi Program Program ini menampilkan n bilangan acak yang nilainya lebih kecil dari 0.5. Nilai n ditentukan oleh user saat runtime. 🔄 Alur Algoritma
 
 Import Library
 
