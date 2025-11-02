@@ -66,12 +66,13 @@ total_laba = 0
 # perhitungan laba perbulan
 for bulan in range(1, 9): # Menentukan persentase laba per bulan if bulan <= 2: laba_persen = 0 # Bulan 1-2: tidak ada laba elif bulan <= 4: laba_persen = 1 # Bulan 3-4: laba 1% elif bulan <= 7: laba_persen = 5 # Bulan 5-7: laba 5% else: laba_persen = 2 # Bulan 8: laba 2%
 
-# Hitung laba bulan ini
+#Hitung laba bulan ini
 laba_bulan_ini = modal_awal * (laba_persen / 100)
 total_laba += laba_bulan_ini
 
-# Tampilkan informasi per bulan
+#Tampilkan informasi per bulan
 print(f"laba bulan ke- {bulan} sebesar: {int(laba_bulan_ini)}")
+
 print(f"Total laba adalah: {int(total_laba)}") Output: laba bulan ke- 1 sebesar: 0 laba bulan ke- 2 sebesar: 0 laba bulan ke- 3 sebesar: 1000000 laba bulan ke- 4 sebesar: 1000000 laba bulan ke- 5 sebesar: 5000000 laba bulan ke- 6 sebesar: 5000000 laba bulan ke- 7 sebesar: 5000000 laba bulan ke- 8 sebesar: 2000000 Total laba adalah: 19000000 🎯 Penjelasan Konsep
 
 Menggunakan perulangan for (counted loop) karena jumlah perulangan sudah pasti (8 bulan) Menggunakan conditional if-elif-else untuk menentukan persentase laba setiap bulan Akumulasi laba menggunakan operator +=
