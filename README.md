@@ -38,7 +38,9 @@ while count < n: angka = random() if angka < 0.5: count += 1 Contoh Output: Masu
 
 Menggunakan perulangan while (uncounted loop) karena tidak tahu pasti berapa kali harus generate bilangan Menggunakan conditional if untuk memfilter hanya bilangan < 0.5 Kombinasi while dan if membuat program efisien.
 
-#Latihan 2 - Perhitungan Laba Usaha 📝 Deskripsi Program Program menghitung total keuntungan seorang pengusaha selama 8 bulan dengan modal awal 100 juta rupiah, dengan persentase laba yang berbeda-beda setiap bulannya. 🔄 Alur Algoritma
+#Latihan 2 
+![alt image](https://github.com/rifkiadetia/labpy03/blob/15a07ae56ce68b01d7eba501f830c9980aa03378/foto/Ss2.png)
+- Perhitungan Laba Usaha 📝 Deskripsi Program Program menghitung total keuntungan seorang pengusaha selama 8 bulan dengan modal awal 100 juta rupiah, dengan persentase laba yang berbeda-beda setiap bulannya. 🔄 Alur Algoritma
 
 Inisialisasi Variabel
 
