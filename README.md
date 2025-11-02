@@ -78,6 +78,48 @@ print(f"Total laba adalah: {int(total_laba)}") Output: laba bulan ke- 1 sebesar:
 Menggunakan perulangan for (counted loop) karena jumlah perulangan sudah pasti (8 bulan) Menggunakan conditional if-elif-else untuk menentukan persentase laba setiap bulan Akumulasi laba menggunakan operator +=
 
 📈 Rincian Perhitungan BulanPersentase LabaLaba (Rp)Keterangan10%0Belum dapat laba20%0Belum dapat laba31%1.000.000Mulai dapat laba41%1.000.000Laba tetap55%5.000.000Naik 4%65%5.000.000Laba tetap75%5.000.000Laba tetap82%2.000.000Turun 3%Total-19.000.000-
+
+#Latihan 3 - Simulasi ATM 📝 Deskripsi Program Program simulasi mesin ATM sederhana yang memungkinkan pengguna untuk menarik uang dari saldo awal Rp 1.000.000 hingga saldo habis atau memilih untuk keluar. 🔄 Alur Algoritma
+
+Inisialisasi Variabel
+
+saldo = 1.000.000 (saldo awal)
+
+Perulangan While
+
+Selama saldo > 0, lakukan:
+
+Tampilan Menu
+
+Tampilkan saldo saat ini Tampilkan menu:
+
+Tarik Uang
+
+Keluar
+
+Minta user memilih menu
+
+Proses Pilihan Menu Jika pilihan = 1 (Tarik Uang):
+
+Minta input jumlah penarikan Cek apakah jumlah ≤ saldo
+
+Jika ya: kurangi saldo, tampilkan "Penarikan berhasil!" Jika tidak: tampilkan "Saldo tidak cukup!"
+
+Jika pilihan = 2 (Keluar):
+
+Tampilkan pesan terima kasih Keluar dari program (break)
+
+Jika pilihan tidak valid:
+
+Tampilkan pesan error
+
+Pengecekan Saldo Habis
+
+Jika saldo = 0, tampilkan pesan saldo habis dan program berhenti
+
+💻 Kode Program python# Saldo awal saldo = 1000000
+
+while saldo > 0: print(f"Saldo saat ini: Rp {saldo}") print("1. Tarik Uang") print("2. Keluar") pilihan = int(input("Pilih menu (1/2): "))
 # jika saldo habis
 if saldo == 0: print("Saldo Anda habis! Terima kasih telah menggunakan ATM!") Contoh Output: Saldo saat ini: Rp 1000000
 
